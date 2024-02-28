@@ -28,10 +28,10 @@ def multiply():
 print(multiply())
 print(f"{multiply():,}") # the f"{}" is used to format the result in a certain way (in this example with :, commas) to make it easier to read
 
-# a simple functino to ask a user their name
+# a simple functino to ask a user their name and how you can manipulate how it is displayed; examples are title() capitalize() upper() strip()
 
 def your_name():
-    name = input("What's your name? ")
+    name = input("What's your name? ").title()
     print("Hello, ", name)
 
 your_name()
